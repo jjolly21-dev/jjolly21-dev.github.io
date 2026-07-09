@@ -38,3 +38,10 @@ section {
   border: 1px solid gray;
   box-shadow: 2px 2px 8px gray;
 }
+footer {
+  font-size: 18px;
+  text-align: center;
+  background-color: navy;
+  color: white;
+  padding: 20px;
+}
