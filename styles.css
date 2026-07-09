@@ -1,12 +1,13 @@
 
 Body {
   background-color: purple;
-  font-family: sans-serif;
+  font-family: arial, sans-serif;
   text-color: purple;
 }
-Header {
+h1 {
   text-align: center;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: bold;
   padding: 20px;
+  background-color: gold;
 }
