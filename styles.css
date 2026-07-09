@@ -1,9 +1,11 @@
 
+/* step 1 */
 Body {
   background-color: lightblue;
   font-family: arial, sans-serif;
   text-color: purple;
 }
+/* step 2 */
 h1 {
   text-align: center;
   font-size: 32px;
@@ -11,6 +13,7 @@ h1 {
   padding: 20px;
   background-color: gold;
 }
+/* step 3 */
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -31,6 +34,7 @@ nav a:hover {
   background-color: navy;
   color: white;
 }
+/* step 4 */
 section {
   background-color: white;
   margin: 20px;
@@ -38,6 +42,7 @@ section {
   border: 1px solid gray;
   box-shadow: 2px 2px 8px gray;
 }
+/* step 5 */
 footer {
   font-size: 18px;
   text-align: center;
