@@ -1,1 +1,11 @@
 
+Body {
+  background-color: white;
+  font-family: sans-serif;
+}
+Header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 20px;
+}
