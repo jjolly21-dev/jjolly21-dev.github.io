@@ -70,3 +70,6 @@ td {
   border: 2px solid black;
   padding: 12px;
 }
+tbody td:first-child {
+  background-color: yellow;
+}
