@@ -28,6 +28,7 @@ nav a {
   color: white;
   text-decoration: none;
   padding: 15px 25px;
+  transition: background-color .3s;
 }
 
 nav a:hover {
@@ -41,6 +42,7 @@ section {
   padding: 20px;
   border: 1px solid gray;
   box-shadow: 2px 2px 8px gray;
+  transition: transform .3s;
 }
 /* step 5 */
 footer {
@@ -50,7 +52,9 @@ footer {
   color: white;
   padding: 20px;
 }
-a:hover {
+nav a:hover {
   background-color: blue;
+}
+section:hover {
   transform: scale(1.02);
 }
