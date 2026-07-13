@@ -50,3 +50,7 @@ footer {
   color: white;
   padding: 20px;
 }
+a:hover {
+  background-color: blue;
+  transform: scale(1.02);
+}
