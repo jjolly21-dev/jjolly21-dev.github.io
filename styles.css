@@ -73,3 +73,9 @@ td {
 tbody td:first-child {
   background-color: yellow;
 }
+main section {
+  transition: transform .3s ease;
+}
+main section:hover {
+  transform: scale(1.02);
+}
