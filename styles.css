@@ -23,6 +23,8 @@ nav ul {
   background-color: lightgray;
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  gap: 20px;
 }
 
 nav a {
@@ -81,4 +83,66 @@ main section {
 }
 main section:hover {
   transform: scale(1.02);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#contact input,
+#contact textarea {
+  padding: 10px;
+  border: 2px solid gray;
+  transition: border-color 0.3s ease;
+}
+#contact input:hover,
+#contact input:focus,
+#contact textarea:hover,
+#contact textarea:focus {
+  border-color: blue;
+}
+#contact input[type="submit"] {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#contact input[type="submit"]:hover,
+#contact input[type="submit"]:focus {
+  background-color: blue;
+}
+@media screen and (min-width: 320px) {
+  main {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  main section {
+    flex: 1 1 40%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main section {
+    flex: 1 1 25%;
+  }
 }
